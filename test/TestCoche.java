@@ -7,4 +7,9 @@ public class TestCoche {
               coche nuevoCoche = new coche();
               Assertions.assertEquals(0, nuevoCoche.velocidad);
        }
+       @Test
+       public void test_acelerar_coche_su_velocidad_aumenta_CarlosPerez(){
+              coche nuevoCoche = new coche();
+             // Assertions.assertEquals(0, nuevoCoche.velocidad);
+       }
 }
