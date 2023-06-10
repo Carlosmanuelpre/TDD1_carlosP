@@ -10,6 +10,7 @@ public class TestCoche {
        @Test
        public void test_acelerar_coche_su_velocidad_aumenta_CarlosPerez(){
               coche nuevoCoche = new coche();
-             // Assertions.assertEquals(0, nuevoCoche.velocidad);
+              nuevoCoche.acelerar(30);
+              Assertions.assertEquals(30, nuevoCoche.velocidad);
        }
 }
